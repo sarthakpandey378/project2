@@ -1,191 +1,421 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #d54524;
-    color:white;
+    color: white;
 }
 
-.section1{
+.section1 {
     width: 100%;
-    height:100px;
-    border:2px solid black;
-    
-}
-.header{
-    width:100%;
-    height:100px;
+    height: 100px;
+    border: 2px solid black;
 
 }
-.nav{
-   margin:-67px 24px;
+
+.header {
+    width: 100%;
+    height: 100px;
+
+}
+
+.nav {
+    margin: -67px 24px;
 
 
 }
-.logo{
+
+.logo {
     overflow: hidden;
-    width:150px;
+    width: 150px;
     height: 100px;
     display: block;
 
 }
-ul{
+
+ul {
     display: flex;
     flex-direction: row;
-    gap:50px;
+    gap: 50px;
     justify-content: end;
-    margin:-40px 9px;
+    margin: -40px 9px;
 
 
 
 }
-#search{
-    width:25vw;
-    height:5vh;
+
+#search {
+    width: 25vw;
+    height: 5vh;
     background-color: rgb(218, 205, 205);
     border-radius: 15px;
-    margin:0 20rem;
-    padding:10px;
+    margin: 0 20rem;
+    padding: 10px;
 }
 
-li{
- list-style: none;
- text-decoration: none;
-}
-
-li a{
+li {
+    list-style: none;
     text-decoration: none;
-    color:white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
     cursor: pointer;
 }
-a:hover{
-    color:yellow;
-    background-color:rgb(13 212 197);
+
+a:hover {
+    color: yellow;
+    background-color: rgb(13 212 197);
     border-radius: 5px;
     font-size: larger;
     font-weight: bold;
-   
+
 }
-.section2{
+
+.section2 {
     display: flex;
     justify-content: left;
     background-color: #e7b40d;
 }
-.left{
-    width:40vw;
-   
+
+.left {
+    width: 40vw;
+
 }
-.right{
-    width:40vw;
-  display:flex;
-  
+
+.right {
+    width: 40vw;
+    display: flex;
+
 }
-.intro{
-    margin:50px;
+
+.intro {
+    margin: 50px;
     font-size: x-large;
-    font-weight:600;
+    font-weight: 600;
     font-family: arial;
 }
-.idol{
-    margin:0 50px;
-    background-color:#001580;
+
+.idol {
+    margin: 0 50px;
+    background-color: #001580;
     border-radius: 50%;
 }
-.section3 h1{
+
+.section3 h1 {
     margin: 20px;
 }
-.about p{
-    margin:0 20px;
+
+.about p {
+    margin: 0 20px;
 }
-.tataTrust{
-    width:100%;
-    height:20vh;
+
+.tataTrust {
+    width: 100%;
+    height: 20vh;
     background-color: #e7b40d;
-    color:black;
+    color: black;
     font-size: x-large;
-    margin:33px 20px;
+    margin: 33px 20px;
 }
-.tataTrust h1{
-    margin:10px 20px;
-}
-.tataTrust button{
-   width:5vw;
-   height:5vh;
-   Margin:10px 80px;
-}
-.tataTrust a{
+
+.tataTrust h1 {
     margin: 10px 20px;
 }
-.section4{
-    width:100%;
-    height:150vh;
-    background-color: #d54524;
-    display:flex;
-    flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-    align-items: center; 
-    margin:50px 30px;
-  
-}
-.section4.companies{
-    width:80px;
-    display: flex; }
-    
-.section4 p{
-margin:20px 50px;
-background-color: yellow;
-color:red;
-width:30vw;
-}
-.footer{
-    background-color: black;
-    width:100%;
-    height:70vh;
-    align-items: center;
-    color:white;
+
+.tataTrust button {
+    width: 5vw;
+    height: 5vh;
+    Margin: 10px 80px;
 }
 
-.tag{
-    font-size:xx-large;
-    font-weight: 600;
-    margin:60px 450px;
-    
+.tataTrust a {
+    margin: 10px 20px;
 }
-.suggestion span{
-    display:flex;
+
+.section4 {
+    width: 100%;
+    height: 150vh;
+    background-color: #d54524;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    margin: 50px 30px;
+
 }
-#subject{
+
+.section4.companies {
+    width: 80px;
+    display: flex;
+}
+
+.section4 p {
+    margin: 20px 50px;
+    background-color: yellow;
+    color: red;
+    width: 30vw;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    color: white;
+}
+
+.tag {
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 60px 450px;
+
+}
+
+.suggestion span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#subject {
     text-align: center;
 
-    width:95rem;
+    width: 95rem;
 
 }
-#SUB{
-    margin:24px 10px ;
+
+#SUB {
+    margin: 24px 10px;
     width: 330px;
 }
 
-#suggested{
-    padding:30px;
-    width:45vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+#suggested {
+    padding: 30px;
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.insert{
-    margin:0 595px ;
-    
+
+.insert {
+    margin: 0 595px;
+
 }
-.merge{
-    padding:20px;
-    color:white;
+
+.merge {
+    padding: 20px;
+    color: white;
     background-color: #001580;
-    width:10vw;
-    margin:10px 43rem;
+    width: 10vw;
+    margin: 10px 43rem;
+}
+
+@media (max-width:450px) {
+    .section2 {
+        width: 95rem;
+        height: 35rem;
+    }
+
+    .right {
+        width: 50rem;
+    }
+
+    .left {
+        width: 50rem;
+    }
+
+    .idol {
+        margin: 90px 155px;
+    }
+
+    .intro {
+        font-size: 40px;
+    }
+
+    .section3 h1 {
+        margin: 40px;
+        width: 93rem;
+        font-size: 60px;
+    }
+
+    .about p {
+        width: 93rem;
+        font-size: 37px;
+    }
+
+    .tataTrust {
+        width: 94rem;
+        height: 23vh;
+        font-size: 44px;
+        margin: 50px 20px;
+    }
+
+    .section4 {
+        width: 92rem;
+    }
+
+    .section4 h1 {
+        font-size: 54px;
+    }
+
+    .section4 p {
+        font-size: 45px;
+        width: 80rem;
+        height: 7vh;
+        margin: 26px 50px;
+    }
+
+    .suggestion span {
+        display: flex;
+        gap: 38px;
+        height: 8rem;
+    }
+
+    .tag {
+        margin: 0;
+        font-size: 42px;
+        width: 55rem;
+        position: relative;
+        left: 25rem;
+        top: 23px;
+    }
+
+    .footer #name {
+        width: 20rem;
+        height: 2rem;
+    }
+
+    .footer #email {
+        width: 20rem;
+        height: 2rem;
+    }
+
+    .merge {
+        padding: 37px;
+        width: 41vw;
+        font-size: 50px;
+    }
+
+    .subject {
+        width: 92rem;
+    }
+
+    #SUB {
+        width: 420px;
+        height: 2rem;
+    }
+
+    .insert {
+        height: 10rem;
+        margin: 0 460px;
+    }
+
+    #suggested {
+        height: 9rem;
+        width: 33rem;
+    }
+
+    ul {
+        font-size: 40px;
+    }
+
+    .section1 {
+        width: 95rem;
+    }
+
+    #search {
+        width: 115vw;
+        margin: 0 11rem;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 5rem;
+        margin-top: 120px;
+        height: 80vh;
+        right: 33px
+    }
+}
+
+
+@media (max-width:850px) {
+    #search {
+        width: 25vw;
+        margin: 0 8rem;
+    }
+
+    .right {
+        width: 53vw;
+    }
+
+    .left {
+        width: 45vw;
+    }
+
+    .tataTrust {
+        height: 12vh;
+    }
+
+    .section4 {
+        margin: 70px 64px;
+    }
+
+    .company {
+        width: 300px;
+    }
+
+    .section4 p {
+        width: 70vw;
+    }
+
+    .suggestion span {
+        display: flex;
+        gap: 65px;
+        position: relative;
+        top: 15px;
+    }
+
+    #subject {
+        width: 50rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .insert {
+        margin: 0 595px;
+    }
+
+    .merge {
+        position: relative;
+        top: 3rem;
+        right: 21rem;
+    }
+
+    #suggested {
+        width: 23vh;
+        right: 21rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 7rem;
+        margin-top: 120px;
+        height: 40vh;
+        right: 62px;
+    }
+
+    .tag {
+        margin: 35px 0;
+        text-align: center;
+
+    }
 }
